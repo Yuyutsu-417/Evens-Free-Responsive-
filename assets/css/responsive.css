@@ -7,6 +7,19 @@
         width: 543px;
     }
 
+    .ml--12 {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+}
+
+@media (max-width:1320) {
+    .ml--12 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
 }
 
 @media (max-width:1148px) {
@@ -69,6 +82,12 @@
     .mr-60 {
         margin-right: 0;
     }
+
+    .ml--12 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 
     .container {
         width: 100%;
@@ -211,6 +230,12 @@
         width: calc(100% - 12px);
     }
 
+    .ml--12 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
     .pt-lg-20 {
         padding-top: 20px;
     }
@@ -283,6 +308,12 @@
         font-size: 40px;
         width: calc(100% - 12px);
     }
+
+    .ml--12 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 
     .sm-width {
         width: 90%;
