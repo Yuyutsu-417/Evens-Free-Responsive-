@@ -288,6 +288,10 @@
     border: none;
 }
 
+.w-xl-100 {
+    width: 100%;
+}
+
 .col6 {
     width: 50%;
     padding-left: 12px;
@@ -484,9 +488,6 @@
     padding-top: 15px;
 }
 
-.card {
-    padding-left: 12px;
-}
 
 .date {
     color: rgba(0, 0, 0, 0.70);
@@ -544,7 +545,7 @@
 }
 
 .i-box {
-    width: 277px;
+    width: calc(50% - 20px);
     height: 42px;
     border-radius: 5px;
     border: 1px solid #999999
@@ -564,7 +565,7 @@
 }
 
 .i-box2 {
-    width: 574px;
+    width: calc(100% - 20px);
     height: 42px;
     border-radius: 5px;
     border: 1px solid #999999;
@@ -576,7 +577,7 @@
 }
 
 .i-box3 {
-    width: 574px;
+    width: calc(100% - 20px);
     height: 124px;
     border: 1px solid #999999;
     border-radius: 5px;
@@ -597,7 +598,7 @@
     justify-content: center;
     border-radius: 23px;
     background: #2C49FE;
-    border: none;
+    border: 1px solid #2C49FE;
     color: white;
     font-family: Poppins;
     font-size: 16px;
@@ -736,9 +737,9 @@
 }
 
 .arrow {
-    z-index: 1;
-    right: 12px;
-    top: 140px;
+    z-index: 100;
+    right: 5%;
+    bottom: 5%;
 }
 
 .h-btn1:hover,
